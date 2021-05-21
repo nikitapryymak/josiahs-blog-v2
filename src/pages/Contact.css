@@ -8,7 +8,7 @@
     margin: 2rem auto;
     display: flex;
     flex-direction: column;
-    color:#25a6e9
+    color:#25a6e9;
 }
 .name {
     display: flex;

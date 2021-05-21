@@ -27,16 +27,16 @@ function Nav() {
                     </Link>
 
                 <div className="icons">
-                    <a href='https://podcasts.apple.com/us/podcast/faith-films/id1462853037' target="_blank" rel='noreferrer' >
-                        <AppleIcon />
+                    <a className='apple-logo-icon' href='https://podcasts.apple.com/us/podcast/faith-films/id1462853037' target="_blank" rel='noreferrer' >
+                        <AppleIcon color='primary' />
                         </a>
-                    <a href='https://www.youtube.com/user/Josiah2816' target="_blank" rel='noreferrer'>
+                    <a className='youtube-logo-icon' href='https://www.youtube.com/user/Josiah2816' target="_blank" rel='noreferrer'>
                         <YouTubeIcon />
                         </a>
-                    <a href='https://twitter.com/faithandfilmz' target="_blank" rel='noreferrer'>
+                    <a className='twitter-logo-icon' href='https://twitter.com/faithandfilmz' target="_blank" rel='noreferrer'>
                         <TwitterIcon />
                         </a>
-                    <a href='https://www.instagram.com/brojosavedbygrace/' target="_blank" rel='noreferrer'>
+                    <a className='instagram-logo-icon' href='https://www.instagram.com/brojosavedbygrace/' target="_blank" rel='noreferrer'>
                         <InstagramIcon />
                         </a>
                 </div>
