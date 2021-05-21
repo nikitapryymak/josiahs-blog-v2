@@ -1,0 +1,30 @@
+.About {
+    min-height: calc(100vh - 112px);
+}
+.about-content {
+    width: 90%;
+    max-width: 875px;
+    margin: 2rem auto;
+    display: flex;
+    align-items: flex-start;
+}
+.about-content img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 6px;
+    margin-right: 2rem;
+}
+.about-content a {
+    color: #25a6e9;
+}
+@media screen and (max-width: 849px) {
+    .about-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-content img {
+        margin-right: 0rem;
+        margin-bottom: 2rem;
+    }
+}

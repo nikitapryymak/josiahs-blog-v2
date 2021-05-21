@@ -1,0 +1,11 @@
+.Home {
+    margin: 0 .25rem;
+}
+
+.reviews-container {
+    width: 95%;
+    margin: 2rem auto 3rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

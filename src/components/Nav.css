@@ -1,0 +1,75 @@
+.Nav {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.Nav a {
+    text-decoration: none;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.logo {
+    position: absolute;
+    top: 1.5rem;
+    left: 2rem;
+    outline: none;
+    width: 80px;
+    border-radius: 6px;
+}
+
+.Nav h1 {
+    color: #303030;
+    font-size: 3rem;
+    font-family: 'Baskervville', serif;
+    font-weight: 500;
+}
+
+.icons {
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+}
+
+.icons a {
+    margin-left: .18rem;
+    color: #2e2e2e;
+}
+.icons a:hover {
+    color: #25a6e9;
+}
+
+.nav-link {
+    color: #25a6e9;
+    font-size: 1.35rem;
+    margin: 0 1rem;
+}
+@media screen and (max-width: 674px) {
+    .logo, .icons {
+        display: none;
+    }
+    .top-nav {
+        justify-content: center;
+    }
+}
+.create-review-icon {
+    position: fixed;
+    bottom: 1rem;
+    right: 1.5rem;
+    cursor: pointer;
+}
+.logout-icon {
+    position: fixed;
+    bottom: 1rem;
+    left: 1.5rem;
+    cursor: pointer;
+}

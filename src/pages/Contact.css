@@ -1,0 +1,40 @@
+.Contact {
+    min-height: calc(100vh - 112px);
+    margin: 0 .25rem;
+}
+.contact-form {
+    width: 90%;
+    max-width: 50rem;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    color:#25a6e9
+}
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+.error {
+    color: #ef2020;
+}
+.submit-btn-container {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+.name .MuiTextField-root {
+    width: 49%;
+}
+.MuiInputBase-input {
+    color: #333 !important;
+}
+.MuiInput-underline::before {
+    border-bottom: 1px solid #25a6e9 !important;
+}
+.MuiInput-underline::after {
+    border-bottom: 2px solid #25a6e9 !important;
+}
+.MuiButton-root:hover {
+    color: white;
+    background-color: #25a6e9 !important;
+}

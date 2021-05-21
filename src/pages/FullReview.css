@@ -1,0 +1,68 @@
+.FullReview {
+    width: 90%;
+    max-width: 725px;
+    margin: 3rem auto;
+}
+.full-review-img {
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 380px;
+    height: 50vh;
+    margin: 2rem auto;
+}
+.review-details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+.review-details span {
+    margin-left: .5rem;
+    margin-right: .7rem;
+}
+#full-body {
+    position: relative;
+}
+#full-body .edit-review-btn {
+    position: absolute;
+    top: -2rem;
+    right: .5rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: .5rem;
+}
+#full-body p {
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+}
+#full-body h1, #full-body h2, #full-body h3 {
+    margin: 2.5rem 0 .85rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2e2e2e;
+    text-align: left;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+}
+@media screen and (max-width: 400px) {
+    .review-details #name {
+        margin-right: 2rem;
+    }
+    .review-details {
+        margin-bottom: .5rem;
+    }
+    .review-details span {
+        display: none;
+    }
+    .review-date {
+        margin: 1rem 0;
+    }
+}

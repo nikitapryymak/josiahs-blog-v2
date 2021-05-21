@@ -1,0 +1,11 @@
+.Login form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 4rem;
+    width: 100%;
+    max-width: 22rem;
+    min-height: calc(100vh - 112px);
+    margin: 5rem auto;
+}

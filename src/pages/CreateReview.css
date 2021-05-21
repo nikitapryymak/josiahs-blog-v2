@@ -1,0 +1,13 @@
+.review-form {
+    width: 90%;
+    max-width: 52rem;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+}
+.review-form p {
+    margin-bottom: .75rem;
+}
+#review-body {
+    line-height: 1.375rem !important;
+}
