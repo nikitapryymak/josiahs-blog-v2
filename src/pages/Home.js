@@ -38,7 +38,7 @@ export default function Home() {
         <div className='Home'>
 
             <Typography variant='h3' color='secondary' style={{ marginBottom: '2rem' }}>
-                "Equipping the saints for pracitcal and godly living"</Typography>
+                "Equipping the saints for practical and godly living"</Typography>
             <Typography variant='h1' color='error'>
                 Book Reviews</Typography>
             <div className="reviews-container">
